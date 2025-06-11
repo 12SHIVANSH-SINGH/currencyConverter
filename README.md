@@ -1,2 +1,2 @@
-# a currency converter app build using react
-# Live link - 
+A currency converter app build using react
+Live link - 
