@@ -32,8 +32,8 @@ function App() {
   
   return (
     <>
-       <div className='bg-black h-screen w-full text-white rounded p-2 flex flex-col items-center justify-center space-y-4 '>
-        <h1>CURRENCY CONVERTER</h1>
+       <div className='bg-[url(https://t4.ftcdn.net/jpg/11/79/82/83/360_F_1179828334_SpqGKsgKkozKltDntgKXNEAotGG7N47N.jpg)] h-screen w-full text-white rounded p-2 flex flex-col items-center justify-center space-y-4 '>
+        <h1 className='text-4xl font-stretch-ultra-condensed font-bold'>CURRENCY CONVERTER</h1>
           <InputBox
           items={items}
           amount={amount}
@@ -50,7 +50,7 @@ function App() {
             onCurrencyChange={setTo}
             change={true}
           />
-          <button onClick={convert} className='bg-green-400 p-2 m-3 rounded-3xl w-40 hover:bg-green-600 cursor-pointer active:bg-green-800'>Convert {from} to {to}</button>
+          <button onClick={convert} className='bg-[url(https://media.istockphoto.com/id/474033552/photo/fabric-texture-background-in-various-tones-of-purple.jpg?s=612x612&w=0&k=20&c=tvhw8sOCV0P25Uhbmo7kX9ujhofz47e3tqqwdVkpafw=)] p-2 m-3 rounded-3xl w-40 cursor-pointer '>Convert {from} to {to}</button>
        </div>
     </>
   )
